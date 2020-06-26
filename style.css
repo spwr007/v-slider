@@ -1,0 +1,134 @@
+/*common styling*/
+body {
+  font-family: "Muli", sans-serif !important;
+}
+h1 {
+  margin: 0 !important;
+  line-height: 0 !important;
+}
+
+h2 {
+  font-size: 36px !important;
+  font-weight: 600 !important;
+  line-height: 48px !important;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  margin: 0 !important;
+}
+
+li {
+  list-style: none;
+}
+.row {
+  margin: 0 !important;
+}
+.container-fluid {
+  padding: 0 !important;
+}
+.container-fluid .row > div {
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1400px;
+  padding: 0 65px 0 60px;
+  margin: 0 auto;
+}
+
+/* Customize */
+.customize-container {
+  padding: 100px 0;
+}
+
+.custom-sol-container {
+  width: 616px !important;
+  padding: 31px 30px;
+}
+
+.custom-sol-container h2 {
+  margin: 0;
+}
+
+.custom-sol-container p {
+  margin: 48px 0 49px;
+  color: #666;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.btn-container a:first-of-type {
+  margin-top: 0;
+}
+
+.btn-container a:last-of-type {
+  margin-left: 40px;
+  color: #4086ff;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1.25px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.card {
+  width: 301px !important;
+}
+.card-media img {
+  width: 100%;
+}
+.card-content {
+  padding: 17px;
+}
+
+.card-content h4 {
+  margin: 0 0 17px;
+  color: #2a2a2a;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.23px;
+  line-height: 23px;
+}
+
+.card-content p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+}
+
+.box {
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.07), 0 2px 1px -1px rgba(0, 0, 0, 0.07), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.customize-container {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+  /* display: flex; */
+  position: relative;
+}
+
+._slider {
+  position: relative;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  display: block !important;
+  max-width: initial;
+}
+
+.box {
+  text-align: center;
+  margin: 5px;
+
+  vertical-align: top;
+  display: inline-block !important;
+}
